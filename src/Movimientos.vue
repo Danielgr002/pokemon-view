@@ -25,6 +25,7 @@ export default {
       <th>Nombre</th>
       <th>Tipo</th>
       <th>Precision</th>
+      <th>Pokemons</th>
     </tr>
     </thead>
     <tbody>
@@ -32,6 +33,7 @@ export default {
       <td>{{ movimiento.nombre }}</td>
       <td>{{ movimiento.tipo }}</td>
       <td>{{ movimiento.precision }}</td>
+      <td>{{ movimiento.pokemons.map(s => s.pokemon)}}</td>
     </tr>
     </tbody>
   </table>
