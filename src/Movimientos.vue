@@ -38,8 +38,6 @@ export default {
     </tbody>
   </table>
   <div>
-    <router-link to="/Movimientos">Pagina Inicio</router-link>
-    <router-view></router-view>
   </div>
 </template>
 
