@@ -13,6 +13,25 @@ export default {
       console.log(pokemons);
       this.pokemons = pokemons;
     })
+
+    //let idPokemon = 1;
+
+    //axios.delete(`http://localhost:8080/poke/pokemons/${idPokemon}`).then(res => {
+        //let pokemon = res.data;
+        //console.log(pokemon);
+        //this.pokemons = pokemon;
+    //})
+
+    //let nuevoPokemon = {
+      //nombre: 'Pikachu',
+      //nivel: 25
+    //};
+
+    //axios.post('http://localhost:8080/poke/pokemons', nuevoPokemon).then(res => {
+        //let pokemonCreado = res.data;
+        //console.log(pokemonCreado);
+        //this.pokemons.push(pokemonCreado);
+    //})
   }
 }
 </script>
